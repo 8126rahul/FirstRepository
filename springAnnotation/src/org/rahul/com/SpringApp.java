@@ -8,6 +8,7 @@ public class SpringApp {
 		
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		Coach coach = (Coach) context.getBean("thatCoach");
+		System.out.println("This class is demo for git repository********");
 		System.out.println(coach.getDailyWorkout());
 	}
 
